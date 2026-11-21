@@ -1,0 +1,47 @@
+AUTHOR: testuser
+TITLE: テスト記事1
+BASENAME: 2026/11/20/1234567890
+STATUS: Publish
+ALLOW COMMENTS: 1
+CONVERT BREAKS: 0
+DATE: 11/20/2026 10:30:00
+CATEGORY: テスト
+CATEGORY: 日記
+-----
+BODY:
+<p>最初の段落です。<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C6%A5%B9%A5%C8">テスト</a>キーワードリンクを含みます。</p>
+<h3>見出しです</h3>
+<ul>
+<li>項目1</li>
+<li>項目2</li>
+</ul>
+<p><a href="https://example.com/">外部リンク</a>と<strong>太字</strong>です。</p>
+<pre>print("hello")
+</pre>
+-----
+EXTENDED BODY:
+<p>追記の段落です。</p>
+-----
+COMMENT:
+AUTHOR: commenter
+DATE: 11/20/2026 11:00:00
+コメント本文です。
+-----
+--------
+AUTHOR: testuser
+TITLE: 下書き記事2
+BASENAME: 2026/11/21/1234567891
+STATUS: Draft
+DATE: 11/21/2026 09:00:00
+-----
+BODY:
+## Markdown見出し
+
+これはMarkdownモードの本文です。
+
+[f:id:testuser:20261121090000p:plain]
+
+- リストA
+- リストB
+-----
+--------
